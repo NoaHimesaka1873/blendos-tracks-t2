@@ -71,7 +71,7 @@ packages:
   - 'squashfs-tools'
   - 'sudo'
   - 'syslinux'
-  - 't2fand'
+  - 't2fanrd'
   - 'tcpdump'
   - 'tiny-dfr'
   - 'tpm2-tss'
@@ -95,7 +95,7 @@ services:
   - 'cups'
   - 'bluetooth'
   - 'NetworkManager'
-  - 't2fand'
+  - 't2fanrd'
   - 'tiny-dfr'
 
 user-services:

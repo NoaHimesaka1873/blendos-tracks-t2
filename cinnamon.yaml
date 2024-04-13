@@ -4,6 +4,8 @@ track: 'blendos-base-t2'
 
 packages:
   - 'cinnamon'
+  - 'arc-gtk-theme'
+  - 'papirus-icon-theme'
   - 'xed'
   - 'evince'
   - 'totem'

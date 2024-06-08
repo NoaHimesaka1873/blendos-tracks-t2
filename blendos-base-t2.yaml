@@ -129,9 +129,6 @@ services:
 user-services:
   - 'blend-files'
 
-commands:
-  - 'bash <(wget -qO- https://wiki.t2linux.org/tools/firmware.sh)'
-
 package-repos:
   - name: 'arch-mact2'
     repo-url: 'https://mirror.funami.tech/$repo/os/$arch'

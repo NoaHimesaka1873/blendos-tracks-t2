@@ -136,3 +136,7 @@ services:
 
 user-services:
   - 'blend-files'
+
+package-repos:
+    - name: 'arch-mact2'
+      repo-url: 'https://mirror.funami.tech/arch-mact2/os/$arch'

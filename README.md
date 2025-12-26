@@ -19,7 +19,7 @@ track: 'gnome'
 
 package-repos:
     - name: 'arch-mact2'
-			repo-url: 'https://mirror.funami.tech/arch-mact2/os/$arch'
+      repo-url: 'https://mirror.funami.tech/arch-mact2/os/$arch'
 ```
 
 ## Example GNOME `/system.yaml` with Caddy
@@ -42,6 +42,6 @@ package-repos:
     - name: 'chaotic-aur'
       repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
     - name: 'arch-mact2'
-			repo-url: 'https://mirror.funami.tech/arch-mact2/os/$arch'
+      repo-url: 'https://mirror.funami.tech/arch-mact2/os/$arch'
 
 ```

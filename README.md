@@ -13,7 +13,7 @@
 ```
 repo: 'https://pkg-repo.blendos.co/'
 
-impl: 'https://github.com/blend-os/tracks/raw/main'
+impl: 'https://github.com/NoaHimesaka/blendos-tracks-t2/raw/main'
 
 track: 'gnome'
 
@@ -27,7 +27,7 @@ package-repos:
 ```
 repo: 'https://pkg-repo.blendos.co/'
 
-impl: 'https://github.com/blend-os/tracks/raw/main'
+impl: 'https://github.com/NoaHimesaka/blendos-tracks-t2/raw/main'
 
 track: 'gnome'
 

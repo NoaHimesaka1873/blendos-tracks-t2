@@ -1,4 +1,4 @@
-# blendOS Tracks
+# blendOS Tracks for Intel Macs with T2 Security Chip
 
 * GNOME: `gnome`
 * Plasma: `plasma`
@@ -16,6 +16,10 @@ repo: 'https://pkg-repo.blendos.co/'
 impl: 'https://github.com/blend-os/tracks/raw/main'
 
 track: 'gnome'
+
+package-repos:
+    - name: 'arch-mact2'
+			repo-url: 'https://mirror.funami.tech/arch-mact2/os/$arch'
 ```
 
 ## Example GNOME `/system.yaml` with Caddy
@@ -37,4 +41,7 @@ services:
 package-repos:
     - name: 'chaotic-aur'
       repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
+    - name: 'arch-mact2'
+			repo-url: 'https://mirror.funami.tech/arch-mact2/os/$arch'
+
 ```

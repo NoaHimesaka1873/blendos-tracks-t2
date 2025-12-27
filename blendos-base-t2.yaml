@@ -9,6 +9,7 @@ packages:
   - 'base-devel'
   - 'git'
   - 'bash'
+  - 'bolt'
   - 'bzip2'
   - 'coreutils'
   - 'file'

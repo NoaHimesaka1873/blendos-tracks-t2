@@ -1,5 +1,3 @@
-repo: 'https://mirror.funami.tech/arch-mact2/os/x86_64'
-
 track: 'custom'
 
 packages:
@@ -140,7 +138,3 @@ services:
 
 user-services:
   - 'blend-files'
-
-package-repos:
-  - name: 'arch-mact2'
-    repo-url: 'https://mirror.funami.tech/arch-mact2/os/$arch'
